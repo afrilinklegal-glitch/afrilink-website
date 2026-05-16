@@ -6,7 +6,7 @@ import './styles.css'
 function AfrilinkWebsite() {
   const calendlyLink = 'https://calendly.com/afrilinklegal'
   const email = 'afrilinklegal@gmail.com'
-  const whatsappNumber = '254700000000' // Replace with your real WhatsApp number, country code first, no plus sign.
+  const whatsappNumber = '254704414422' // Replace with your real WhatsApp number, country code first, no plus sign.
 
   const services = [
     {
