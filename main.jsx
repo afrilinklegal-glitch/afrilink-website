@@ -19,7 +19,7 @@ import {
 import './styles.css'
 import logoUrl from './afrilink-logo.png'
 import bannerUrl from './afrilink-banner.png'
-
+import founderImage from './founder.jpg'
 function AfrilinkWebsite() {
   const calendlyLink = 'https://calendly.com/afrilinklegal/30min'
   const email = 'afrilinklegal@gmail.com'
