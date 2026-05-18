@@ -1,6 +1,8 @@
 # Afrilink Legal Consultants Website
 
-Updated Vercel-ready website for Afrilink Legal Consultants.
+Flat upload version for GitHub/Vercel.
+
+Upload all files in this folder directly to GitHub. No src/public folders needed.
 
 Vercel settings if asked:
 - Framework Preset: Vite
