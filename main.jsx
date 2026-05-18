@@ -118,6 +118,32 @@ function AfrilinkWebsite() {
         <div><p className="eyebrow">About Us</p><h2>A modern legal consultancy with local insight and international perspective</h2></div>
         <div><p>Afrilink Legal Consultants is a modern legal and commercial consultancy focused on supporting individuals, businesses, investors, and diaspora clients navigating matters involving Kenya and cross-border transactions.</p><p>Led by an Advocate of the High Court of Kenya with an LLM in International Corporate and Commercial Law from the United Kingdom, Afrilink combines Kenyan legal insight with an international commercial perspective.</p><p>The firm was established in recognition of the growing need for accessible, commercially aware, and cross-border legal support in an increasingly interconnected world.</p><p>Today, many clients operate across jurisdictions — managing investments, property transactions, commercial relationships, corporate operations, and legal documentation remotely. Afrilink helps bridge the gap between local legal processes and global client realities.</p></div>
       </section>
+      <section className="section">
+  <div className="sectionHead">
+    <h2>Founder & Lead Consultant</h2>
+  </div>
+
+  <div style={{textAlign:'center'}}>
+    <img 
+      src="./founder.jpg" 
+      alt="Founder of Afrilink Legal Consultants"
+      style={{
+        width:'320px',
+        borderRadius:'24px',
+        border:'2px solid #d4af37',
+        boxShadow:'0 10px 30px rgba(0,0,0,0.4)'
+      }}
+    />
+
+    <h3 style={{marginTop:'20px', color:'#d4af37'}}>
+      Advocate of the High Court of Kenya
+    </h3>
+
+    <p>
+      LLM in International Corporate & Commercial Law (United Kingdom)
+    </p>
+  </div>
+</section>
 
       <section id="practice" className="section">
         <div className="sectionHead"><p className="eyebrow">Practice Areas</p><h2>Structured legal support for local and international clients</h2><p>Our work is organised into clear service categories so clients can identify the support they need quickly while still understanding the legal and commercial context behind each area.</p></div>
