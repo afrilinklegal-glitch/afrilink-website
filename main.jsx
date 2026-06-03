@@ -116,17 +116,17 @@ function AfrilinkWebsite() {
 
       <section id="about" className="approach">
         <div><p className="eyebrow">About Us</p><h2>A modern legal consultancy with local insight and international perspective</h2></div>
-        <div><p>Afrilink BY JUDITH NDEDA & COMPANY ADVOCATES is a modern legal and commercial consultancy focused on supporting individuals, businesses, investors, and diaspora clients navigating matters involving Kenya and cross-border transactions.</p><p>Led by an Advocate of the High Court of Kenya with an LLM in International Corporate and Commercial Law from the United Kingdom, Afrilink combines Kenyan legal insight with an international commercial perspective.</p><p>The firm was established in recognition of the growing need for accessible, commercially aware, and cross-border legal support in an increasingly interconnected world.</p><p>Today, many clients operate across jurisdictions — managing investments, property transactions, commercial relationships, corporate operations, and legal documentation remotely. Afrilink helps bridge the gap between local legal processes and global client realities.</p></div>
+        <div><p>AFRILINK BY JUDITH NDEDA & COMPANY ADVOCATES is a modern lawfirm focused on supporting individuals, businesses, investors, and diaspora clients navigating matters involving Kenya and cross-border transactions.</p><p>Led by an Advocate of the High Court of Kenya with an LLM in International Corporate and Commercial Law from the United Kingdom, Afrilink combines Kenyan legal insight with an international commercial perspective.</p><p>The firm was established in recognition of the growing need for accessible, commercially aware, and cross-border legal support in an increasingly interconnected world.</p><p>Today, many clients operate across jurisdictions — managing investments, property transactions, commercial relationships, corporate operations, and legal documentation remotely. Afrilink helps bridge the gap between local legal processes and global client realities.</p></div>
       </section>
       <section className="section">
   <div className="sectionHead">
-    <h2>Founder & Lead Consultant</h2>
+    <h2>Founder & Lead Advocate</h2>
   </div>
 
   <div style={{textAlign:'center'}}>
     <img 
-      src="./founder.jpg" 
-      alt="Founder of Afrilink BY JUDITH NDEDA & COMPANY ADVOCATES"
+      src="./founder.jpg.png" 
+      alt="Founder of AFRILINK BY JUDITH NDEDA & COMPANY ADVOCATES"
       style={{
         width:'320px',
         borderRadius:'24px',
