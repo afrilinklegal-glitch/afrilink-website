@@ -17,7 +17,7 @@ import {
   CheckCircle2
 } from 'lucide-react'
 import './styles.css'
-import logoUrl from './afrilink-logo.png'
+import logoUrl from './afrilink-new-logo.png.png'
 import bannerUrl from './afrilink-banner.png'
 function AfrilinkWebsite() {
   const calendlyLink = 'https://calendly.com/afrilinklegal/30min'
