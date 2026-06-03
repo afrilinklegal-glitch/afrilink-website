@@ -99,7 +99,7 @@ function AfrilinkWebsite() {
         <img src={bannerUrl} alt="" className="heroBg" />
         <div className="heroOverlay" />
         <nav className="nav">
-          <a href="#top" className="brand"><img src={logoUrl} alt="AFRILINK BY JUDITH NDEDA & COMPANY ADVOCATES Logo" /><div><strong>AFRILINK</strong><span>Legal Consultants</span></div></a>
+          <a href="#top" className="brand"><img src={logoUrl} alt="AFRILINK BY JUDITH NDEDA & COMPANY ADVOCATES Logo" /><div><strong>AFRILINK</strong><span>BY JUDITH NDEDA & COMPANY ADVOCATES </span></div></a>
           <div className="navLinks"><a href="#about">About</a><a href="#practice">Practice Areas</a><a href="#why">Why Choose Us</a><a href="#insights">Insights</a><a href="#contact">Contact</a></div>
         </nav>
 
@@ -107,7 +107,7 @@ function AfrilinkWebsite() {
           <div className="heroText">
             <p className="pill">Kenya-rooted • Internationally focused • Commercially aware</p>
             <h1>Modern Legal & Commercial Solutions Across Borders</h1>
-            <p className="lead">Afrilink Legal Consultants provides professional legal, commercial, and advisory solutions for individuals, businesses, investors, and diaspora clients navigating matters involving Kenya and cross-border operations.</p>
+            <p className="lead">Afrilink BY JUDITH NDEDA & COMPANY ADVOCATES provides professional legal, commercial, and advisory solutions for individuals, businesses, investors, and diaspora clients navigating matters involving Kenya and cross-border operations.</p>
             <div className="actions"><a href={calendlyLink} target="_blank" rel="noreferrer" className="btn primary"><CalendarDays size={18} /> Book Consultation</a><a href="#practice" className="btn secondary">Explore Practice Areas <ArrowRight size={18} /></a></div>
           </div>
           <div className="heroCard"><Landmark size={56} /><h2>A Boutique International Legal Consultancy</h2><p>Built at the intersection of Kenyan legal expertise, international business realities, diaspora needs, and modern commercial advisory.</p><div className="miniCards"><div>Commercial & transactional support</div><div>Conveyancing and property coordination</div><div>Diaspora and cross-border legal services</div></div></div>
@@ -116,7 +116,7 @@ function AfrilinkWebsite() {
 
       <section id="about" className="approach">
         <div><p className="eyebrow">About Us</p><h2>A modern legal consultancy with local insight and international perspective</h2></div>
-        <div><p>Afrilink Legal Consultants is a modern legal and commercial consultancy focused on supporting individuals, businesses, investors, and diaspora clients navigating matters involving Kenya and cross-border transactions.</p><p>Led by an Advocate of the High Court of Kenya with an LLM in International Corporate and Commercial Law from the United Kingdom, Afrilink combines Kenyan legal insight with an international commercial perspective.</p><p>The firm was established in recognition of the growing need for accessible, commercially aware, and cross-border legal support in an increasingly interconnected world.</p><p>Today, many clients operate across jurisdictions — managing investments, property transactions, commercial relationships, corporate operations, and legal documentation remotely. Afrilink helps bridge the gap between local legal processes and global client realities.</p></div>
+        <div><p>Afrilink BY JUDITH NDEDA & COMPANY ADVOCATES is a modern legal and commercial consultancy focused on supporting individuals, businesses, investors, and diaspora clients navigating matters involving Kenya and cross-border transactions.</p><p>Led by an Advocate of the High Court of Kenya with an LLM in International Corporate and Commercial Law from the United Kingdom, Afrilink combines Kenyan legal insight with an international commercial perspective.</p><p>The firm was established in recognition of the growing need for accessible, commercially aware, and cross-border legal support in an increasingly interconnected world.</p><p>Today, many clients operate across jurisdictions — managing investments, property transactions, commercial relationships, corporate operations, and legal documentation remotely. Afrilink helps bridge the gap between local legal processes and global client realities.</p></div>
       </section>
       <section className="section">
   <div className="sectionHead">
@@ -126,7 +126,7 @@ function AfrilinkWebsite() {
   <div style={{textAlign:'center'}}>
     <img 
       src="./founder.jpg" 
-      alt="Founder of Afrilink Legal Consultants"
+      alt="Founder of Afrilink BY JUDITH NDEDA & COMPANY ADVOCATES"
       style={{
         width:'320px',
         borderRadius:'24px',
@@ -150,10 +150,10 @@ function AfrilinkWebsite() {
         <div className="practiceList">{practiceAreas.map((area, index) => (<article key={area.title} className="practiceCard"><div className="practiceIntro"><div className="icon">{area.icon}</div><p className="number">0{index + 1}</p><h3>{area.title}</h3><p>{area.intro}</p></div><div className="practiceDetails"><h4>Services under this area</h4><div className="serviceGrid">{area.services.map((service) => <div key={service} className="serviceItem">{service}</div>)}</div><div className="framework"><h5>Legal framework and regulatory context</h5><p>{area.framework}</p></div></div></article>))}</div>
       </section>
 
-      <section id="approach" className="approach"><div><p className="eyebrow">Our Approach</p><h2>Legal insight with commercial awareness</h2></div><div><p>Afrilink Legal Consultants is designed for clients who need more than generic legal information. Our approach combines legal analysis, practical coordination, commercial understanding, and clear communication.</p><p>Whether the matter is local, diaspora-related, commercial, property-based, or cross-border, the goal is to help clients make informed decisions, manage risk, and move forward with confidence.</p></div></section>
+      <section id="approach" className="approach"><div><p className="eyebrow">Our Approach</p><h2>Legal insight with commercial awareness</h2></div><div><p>Afrilink BY JUDITH NDEDA & COMPANY ADVOCATES is designed for clients who need more than generic legal information. Our approach combines legal analysis, practical coordination, commercial understanding, and clear communication.</p><p>Whether the matter is local, diaspora-related, commercial, property-based, or cross-border, the goal is to help clients make informed decisions, manage risk, and move forward with confidence.</p></div></section>
 
       <section id="why" className="section">
-        <div className="sectionHead"><p className="eyebrow">Why Choose Us</p><h2>Professional support built around clarity, coordination, and confidence</h2><p>Afrilink Legal Consultants is designed for clients who need practical legal support, commercially aware guidance, and reliable coordination across local and international matters.</p></div>
+        <div className="sectionHead"><p className="eyebrow">Why Choose Us</p><h2>Professional support built around clarity, coordination, and confidence</h2><p>Afrilink BY JUDITH NDEDA & COMPANY ADVOCATES is designed for clients who need practical legal support, commercially aware guidance, and reliable coordination across local and international matters.</p></div>
         <div className="serviceGrid" style={{ marginTop: '42px' }}>{whyChooseUs.map(([title, text]) => (<div key={title} className="serviceItem" style={{ padding: '24px' }}><CheckCircle2 size={26} style={{ color: '#d4af37', marginBottom: '14px' }} /><h3 style={{ color: '#ffffff', marginTop: 0 }}>{title}</h3><p style={{ color: '#bfbfbf', lineHeight: 1.7 }}>{text}</p></div>))}</div>
       </section>
 
@@ -164,9 +164,9 @@ function AfrilinkWebsite() {
         <div className="practiceList" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', display: 'grid' }}>{insights.map(([category, title, summary]) => (<article key={title} className="practiceIntro" style={{ borderRight: 0, borderRadius: '28px', border: '1px solid #252525' }}><BookOpen size={32} style={{ color: '#d4af37' }} /><p className="number">{category}</p><h3>{title}</h3><p>{summary}</p><div className="framework"><h5>Coming Soon</h5><p>This article section can later link to full articles, legal updates, client guides, and downloadable resources.</p></div></article>))}</div>
       </section>
 
-      <section id="contact" className="contact"><div><p className="eyebrow">Contact</p><h2>Start the conversation</h2><p>Contact Afrilink Legal Consultants for professional legal and commercial support involving Kenya, local transactions, diaspora matters, or cross-border operations.</p><div className="contactBoxes"><a href={`mailto:${email}`}><Mail size={20} /> {email}</a><a href={calendlyLink} target="_blank" rel="noreferrer"><CalendarDays size={20} /> Book a consultation</a><a href={`https://wa.me/${whatsappNumber}`} target="_blank" rel="noreferrer"><MessageCircle size={20} /> WhatsApp Afrilink</a></div></div><form className="form" action={`https://formsubmit.co/${email}`} method="POST"><input type="hidden" name="_subject" value="New Afrilink Website Inquiry" /><input type="hidden" name="_captcha" value="false" /><label>Full Name<input name="name" required placeholder="Your name" /></label><label>Email Address<input name="email" type="email" required placeholder="your@email.com" /></label><label>Service Area<select name="service_area" required>{practiceAreas.map((area) => <option key={area.title}>{area.title}</option>)}</select></label><label>Message<textarea name="message" rows="6" required placeholder="Tell us about your inquiry"></textarea></label><button type="submit">Submit Inquiry</button><small>Form submissions will be sent to afrilinklegal@gmail.com through FormSubmit.</small></form></section>
+      <section id="contact" className="contact"><div><p className="eyebrow">Contact</p><h2>Start the conversation</h2><p>Contact Afrilink BY JUDITH NDEDA & COMPANY ADVOCATES for professional legal and commercial support involving Kenya, local transactions, diaspora matters, or cross-border operations.</p><div className="contactBoxes"><a href={`mailto:${email}`}><Mail size={20} /> {email}</a><a href={calendlyLink} target="_blank" rel="noreferrer"><CalendarDays size={20} /> Book a consultation</a><a href={`https://wa.me/${whatsappNumber}`} target="_blank" rel="noreferrer"><MessageCircle size={20} /> WhatsApp Afrilink</a></div></div><form className="form" action={`https://formsubmit.co/${email}`} method="POST"><input type="hidden" name="_subject" value="New Afrilink Website Inquiry" /><input type="hidden" name="_captcha" value="false" /><label>Full Name<input name="name" required placeholder="Your name" /></label><label>Email Address<input name="email" type="email" required placeholder="your@email.com" /></label><label>Service Area<select name="service_area" required>{practiceAreas.map((area) => <option key={area.title}>{area.title}</option>)}</select></label><label>Message<textarea name="message" rows="6" required placeholder="Tell us about your inquiry"></textarea></label><button type="submit">Submit Inquiry</button><small>Form submissions will be sent to afrilinklegal@gmail.com through FormSubmit.</small></form></section>
 
-      <footer><strong>AFRILINK</strong><span>Legal Consultants</span><p>Modern legal and commercial solutions across borders.</p></footer>
+      <footer><strong>AFRILINK</strong><span>BY JUDITH NDEDA & COMPANY ADVOCATES</span><p>Modern legal and commercial solutions across borders.</p></footer>
     </div>
   )
 }
