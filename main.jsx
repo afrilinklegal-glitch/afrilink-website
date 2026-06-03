@@ -99,7 +99,7 @@ function AfrilinkWebsite() {
         <img src={bannerUrl} alt="" className="heroBg" />
         <div className="heroOverlay" />
         <nav className="nav">
-          <a href="#top" className="brand"><img src={logoUrl} alt="Afrilink Legal Consultants Logo" /><div><strong>AFRILINK</strong><span>Legal Consultants</span></div></a>
+          <a href="#top" className="brand"><img src={logoUrl} alt="AFRILINK BY JUDITH NDEDA & COMPANY ADVOCATES Logo" /><div><strong>AFRILINK</strong><span>Legal Consultants</span></div></a>
           <div className="navLinks"><a href="#about">About</a><a href="#practice">Practice Areas</a><a href="#why">Why Choose Us</a><a href="#insights">Insights</a><a href="#contact">Contact</a></div>
         </nav>
 
