@@ -18,7 +18,7 @@ import {
 } from 'lucide-react'
 import './styles.css'
 import logoUrl from './afrilink-logo.png'
-import bannerUrl from './afrilink-banner.png
+import bannerUrl from './afrilink-banner.png'
 function AfrilinkWebsite() {
   const calendlyLink = 'https://calendly.com/afrilinklegal/30min'
   const email = 'afrilinklegal@gmail.com'
