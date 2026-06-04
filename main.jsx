@@ -19,6 +19,7 @@ import {
 import './styles.css'
 import logoUrl from './afrilink-new-logo.png.png'
 import bannerUrl from './afrilink-banner.png'
+import founderimage from './founder.jpg.png'
 function AfrilinkWebsite() {
   const calendlyLink = 'https://calendly.com/afrilinklegal/30min'
   const email = 'afrilinklegal@gmail.com'
@@ -125,7 +126,7 @@ function AfrilinkWebsite() {
 
   <div style={{textAlign:'center'}}>
     <img 
-      src="./founder.jpg.png" 
+      src={founderimage} 
       alt="Founder of AFRILINK BY JUDITH NDEDA & COMPANY ADVOCATES"
       style={{
         width:'320px',
